@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Cliente kaua = new Cliente();
-		venilton.setNome("kauã");
+		kaua.setNome("kauã");
 		
 		Conta cc = new ContaCorrente(kaua);
 		Conta poupanca = new ContaPoupanca(kaua);
